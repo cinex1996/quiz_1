@@ -2,7 +2,7 @@
 
 <?php
 session_start();
-$pol=mysqli_connect('127.0.0.1','kolex1234','M@rc!n@1!2','kolex1234');
+$pol=mysqli_connect('localhost','root','','quiz');
 if(isset($_POST['m1']))
 {
 	$answer=$_POST['m1'];
